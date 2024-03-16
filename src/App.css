@@ -1,38 +1,25 @@
-.App {
-  text-align: center;
+@font-face {
+  font-family: "Kalavika bold";
+  src: url(./assets/font_family/klavika-bold.otf);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+@font-face {
+  font-family: "Kalavika regular";
+  src: url(./assets/font_family/Klavika-Regular.otf);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.ff_Kalavika_bold{
+  font-family: "Kalavika bold";
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.ff_Kalavika_regular{
+  font-family: "Kalavika regular";
 }
 
-.App-link {
-  color: #61dafb;
+.bg_hero{
+  background-image: url(./assets/images/Png/Hero_bg.png);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.custom_container{
+  max-width: 1090px;
 }
