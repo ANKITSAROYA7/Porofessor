@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@200..800&display=swap');
+
 @font-face {
   font-family: "Kalavika bold";
   src: url(./assets/font_family/klavika-bold.otf);
@@ -16,10 +18,22 @@
   font-family: "Kalavika regular";
 }
 
+.ff_assistant{
+  font-family: "Assistant";
+}
+
 .bg_hero{
   background-image: url(./assets/images/Png/Hero_bg.png);
 }
 
+.bg_cards{
+   background-image: url(./assets/images/Png/card_bg.png) ;
+}
+
 .custom_container{
   max-width: 1090px;
+}
+
+.bg_install{
+   background-image: url(./assets/images/Png/bg_install.png);
 }
